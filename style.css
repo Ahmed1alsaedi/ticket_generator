@@ -1,5 +1,6 @@
 body{
     background-image: url("assets/images/background-desktop.png");
+    
 }
 .form{
     margin: 0 auto;
@@ -8,8 +9,13 @@ body{
     padding-top: 5px;
     
 }
-.logo{
-    margin-top: 50px;
+.mogo{
+    
+display: block;
+ margin: 0 auto;
+  
+ 
+
 }
 #header{
     color:white;
