@@ -20,7 +20,7 @@ display: block;
 }
 #header{
     color:white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 550px;
     padding-left: 480px;
     font-weight: bold;
@@ -139,4 +139,7 @@ h4{
     padding-right: 200px;
      font-weight: bold;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#emailcolor{
+    color: rgba(211, 91, 17, 0.795);
 }
