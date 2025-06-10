@@ -2,6 +2,7 @@ body{
     background-image: url("assets/images/background-desktop.png");
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .form{
     margin: 0 auto;
     text-align: center;
@@ -190,4 +191,96 @@ h4{
 .nameIn{
      color: rgb(255, 255, 255);
      font-size: 1.8rem;
+}
+/* Add this to your CSS file */
+
+/* Tablet styles (768px and below) */
+@media only screen and (max-width: 768px) {
+  #header {
+    padding-left: 20px;
+    width: 100%;
+  }
+  #smaLL {
+    padding-left: 20px;
+    width: 100%;
+  }
+  .userData {
+    margin-top: 20px;
+  }
+  .dataLabel {
+    padding-right: 10px;
+  }
+  #name, #email, #username {
+    padding-right: 10px;
+  }
+  .dataInput {
+    width: 100%;
+  }
+  .genBtn {
+    width: 100%;
+  }
+  .avatarBox {
+    width: 100%;
+  }
+  .ticket {
+    width: 100%;
+    height: 200px;
+  }
+  .Tlogo {
+    margin-left: 10px;
+  }
+  .information {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Pimg {
+    width: 100px;
+  }
+}
+
+/* Mobile styles (480px and below) */
+@media only screen and (max-width: 480px) {
+  #header {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  #smaLL {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+  .userData {
+    margin-top: 10px;
+  }
+  .dataLabel {
+    padding-right: 5px;
+  }
+  #name, #email, #username {
+    padding-right: 5px;
+  }
+  .dataInput {
+    width: 100%;
+    height: 20px;
+  }
+  .genBtn {
+    width: 100%;
+    height: 30px;
+  }
+  .avatarBox {
+    width: 100%;
+    height: 50px;
+  }
+  .ticket {
+    width: 100%;
+    height: 150px;
+  }
+  .Tlogo {
+    margin-left: 5px;
+  }
+  .information {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Pimg {
+    width: 50px;
+  }
 }
